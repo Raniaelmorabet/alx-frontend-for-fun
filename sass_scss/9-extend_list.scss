@@ -1,0 +1,20 @@
+/*  Extended */
+
+@mixin info {
+    font-size: 12px;
+  }
+  
+  .info {
+    @include info;
+  }
+  
+  .success {
+    @extend .info;
+    color: #00FF00;
+  }
+  
+  .warning {
+    @extend .info;
+    color: #FF0000;
+  }
+  
